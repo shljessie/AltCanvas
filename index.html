@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>AltCanvas: A Tile-Based Image Editor with Generative AI for Blind or Visually Impaired People</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">AltCanvas: A Tile-Based Image Editor with Generative AI for Blind or Visually Impaired People</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://shljessie.github.io/" target="_blank">Seonghee Lee</a><sup></sup>,</span>
+              <span class="author-block">
+                <a href="https://example.com/maho-kohga" target="_blank">Maho Kohga</a><sup></sup>,</span>
+              <span class="author-block">
+                <a href="https://example.com/steve-landau" target="_blank">Steve Landau</a><sup></sup>,</span>
+              </span>
+              <span class="author-block">
+                <a href="https://www.somodhrain.com/palpable/default.html" target="_blank">Sile O'Modhrain</a><sup></sup>,</span>
+              </span>
+              <span class="author-block">
+                <a href="https://haridecoded.com/" target="_blank">Hari Subramonyam</a>
+              </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block">Stanford University</span><br>
+                    <span class="author-block">TouchGraphics</span><br>
+                    <span class="author-block">University of Michigan</span><br>
+                    <span class="author-block">SIGACCESS ASSETS 2024</span>
+                  </div>
+                  
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://www.arxiv.org/abs/2408.10240" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="https://www.youtube.com/watch?v=l7Xbek7MLnU" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>Video</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/shljessie/text-tactile" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://www.arxiv.org/abs/2408.10240" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video -->
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <div class="hero-body">
+      <!-- YouTube video embedded using iframe -->
+      <iframe id="tree" width="100%" height="515"
+        src="https://www.youtube.com/embed/l7Xbek7MLnU?autoplay=1&mute=1&loop=1&playlist=l7Xbek7MLnU"
+        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen>
+      </iframe>
+      <h3 class="subtitle has-text-centered">
+        AltCanvas is a tile-based image editor that integrates generative AI, specifically designed for blind or visually impaired (BVI) users.
+      </h3>
+    </div>
+  </div>
+</section>
+<!-- End teaser video -->
+
+
+<!-- Paper abstract -->
+<section class="section hero is-light">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            People with visual impairments often struggle to create content that relies heavily on visual elements, particularly when conveying spatial and structural information. Existing accessible drawing tools, which construct images line by line, are suitable for simple tasks like math but not for more expressive artwork. On the other hand, emerging generative AI-based text-to-image tools can produce expressive illustrations from descriptions in natural language, but they lack precise control over image composition and properties. To address this gap, our work integrates generative AI with a constructive approach that provides users with enhanced control and editing capabilities. Our system, AltCanvas, features a tile-based interface enabling users to construct visual scenes incrementally, with each tile representing an object within the scene. Users can add, edit, move, and arrange objects while receiving speech and audio feedback. Once completed, the scene can be rendered as a color illustration or as a vector for tactile graphic generation. Involving 14 blind or low-vision users in design and evaluation, we found that participants effectively used the AltCanvas workflow to create illustrations.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper abstract -->
+
+
+<!-- AltCanvas Description -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-4 has-text-centered">AltCanvas Overview</h2>
+      <div class="columns is-centered">
+        <div class="column is-half has-text-centered">
+          <img src="static/images/interface.png" alt="AltCanvas overview image" style="max-width: 100%; height: auto;">
+        </div>
+      </div>
+      <p class="subtitle has-text-centered">
+        Our system, AltCanvas, features a tile-based interface enabling users to construct visual scenes incrementally, with each tile representing an object within the scene. Users can add, edit, move, and arrange objects while receiving speech and audio feedback.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Image Descriptions -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-4 has-text-centered">Image Descriptions</h2>
+      <div class="columns is-centered">
+        <div class="column is-half has-text-centered">
+          <img src="static/images/check.png" alt="AltCanvas overview image" style="max-width: 100%; height: auto;">
+        </div>
+      </div>
+      <p class="subtitle has-text-centered">
+        Users can hear descriptions about the current state of the canvas through keyboard commands, as well as chat with the system about the image.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Image Editing Operations -->
+<section class="hero is-small">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-4 has-text-centered">Image Editing Operations</h2>
+      <div class="columns is-centered">
+        <div class="column is-half has-text-centered">
+          <img src="static/images/edit.png" alt="AltCanvas overview image" style="max-width: 100%; height: auto;">
+        </div>
+      </div>
+      <p class="subtitle has-text-centered">
+        Size and location edit operations are supported through keyboard actions and sonification, providing a real-time editing experience. Additionally, tile-based interactions and radar scan functions help users understand spatial and relative orientation.
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- Tactile Graphics Rendering -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title is-4 has-text-centered">Tactile Graphics Rendering</h2>
+      <div class="columns is-centered">
+        <div class="column is-half has-text-centered">
+          <img src="static/images/finalrender.png" alt="AltCanvas overview image" style="max-width: 100%; height: auto;">
+        </div>
+      </div>
+      <p class="subtitle has-text-centered">
+        At the end of the editing interaction, users can render the image with various background styles for different users and create tactile graphics.
+      </p>
+    </div>
+  </div>
+</section>
+
+
+<!-- Paper poster -->
+<section class="hero is-small is-light">
+  <div class="hero-body">
+    <div class="container">
+      <h2 class="title">Paper</h2>
+
+      <iframe  src="static/pdfs/AltCanvas.pdf" width="100%" height="550">
+          </iframe>
+        
+      </div>
+    </div>
+  </section>
+<!--End paper poster -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>
+     @misc{lee2024altcanvastilebasedimageeditor,
+          title={AltCanvas: A Tile-Based Image Editor with Generative AI for Blind or Visually Impaired People}, 
+          author={Seonghee Lee and Maho Kohga and Steve Landau and Sile O'Modhrain and Hari Subramonyam},
+          year={2024},
+          eprint={2408.10240},
+          archivePrefix={arXiv},
+          primaryClass={cs.HC},
+          url={https://arxiv.org/abs/2408.10240}, 
+          }
+      </code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+  </body>
+  </html>
